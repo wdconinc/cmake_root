@@ -1,4 +1,4 @@
-(https://root.cern.ch/)[ROOT], is an object oriented framework for large scale data analysis developed at CERN. It is popular in nuclear and particle phyiscs.
+[ROOT](https://root.cern.ch/), is an object oriented framework for large scale data analysis developed at CERN. It is popular in nuclear and particle phyiscs.
 
 # Synopsis
 
@@ -15,3 +15,7 @@ This script downloads and builds ROOT from the source distribution. It installs 
 ```
 ./cmake_root.sh 6.06.08
 ```
+
+# License
+
+This work is provided under the license described in the `LICENSE` file.
