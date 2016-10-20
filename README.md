@@ -1,4 +1,4 @@
-[ROOT](https://root.cern.ch/), is an object oriented framework for large scale data analysis developed at CERN. It is popular in nuclear and particle phyiscs.
+[ROOT](https://root.cern.ch/) is an object oriented framework for large scale data analysis developed at CERN. It is popular in nuclear and particle phyiscs.
 
 # Synopsis
 
