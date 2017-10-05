@@ -20,7 +20,6 @@ cd root-${version}-build
 
 echo "Configuring root.${version}..."
 cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo \
- -DCMAKE_CXX_FLAGS="-D_GLIBCXX_USE_CXX11_ABI=0" \
  -DCMAKE_INSTALL_PREFIX=/usr/local/root/root.${version} \
  -Dall=ON \
  -Dgeocad=ON -DOCC_INCLUDE_DIR=/usr/include/oce \
