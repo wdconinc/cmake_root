@@ -3,6 +3,10 @@
 version=$1
 origdir=`dirname $0`
 
+# Set compiler variables (add version, e.g. "-5", "-6", to override)
+CC=gcc
+CXX=g++
+
 echo "Downloading root_v${version}.source.tar.gz..."
 until test -f root_v${version}.source.tar.gz
 do wget http://root.cern.ch/download/root_v${version}.source.tar.gz
