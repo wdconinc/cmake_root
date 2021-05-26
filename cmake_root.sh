@@ -25,11 +25,8 @@ cd root-${version}-build
 echo "Configuring root.${version}..."
 cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo \
  -DCMAKE_INSTALL_PREFIX=/usr/local/root/root.${version} \
+ -DCMAKE_CXX_STANDARD=17 \
  -Dall=ON \
- -Dgeocad=ON -DOCC_INCLUDE_DIR=/usr/include/oce \
- -Dgdml=ON -Dminuit=ON -Dminuit2=ON -Dmathmore=ON \
- -Dpython=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 \
- -Dr=OFF \
  ../root-${version}
 
 j=`cat /proc/cpuinfo | grep processor | wc -l`
